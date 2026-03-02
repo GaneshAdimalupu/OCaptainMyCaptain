@@ -50,6 +50,6 @@ Copy `.env.example` to `.env` in the root (or into each app if you prefer) and s
 
 ## Project layout
 
-- `apps/web` — Next.js frontend (App Router: home, login, register, dashboard, `/p/[slug]`; components in `src/components`, lib in `src/lib`)
+- `apps/web` — Next.js frontend (App Router: home, login, register, dashboard, `/p/[slug]`; `app/`, `components/`, `lib/`, `styles/` at app root — no `src/`)
 - `apps/api` — Express backend
 - `packages/shared` — Shared TypeScript types
